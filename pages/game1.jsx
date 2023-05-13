@@ -1,8 +1,8 @@
-import SeaLevel from "components/SeaLevel";
+import SeaLevel from "components/math/SeaLevel";
 import { useSelector, useDispatch } from "react-redux";
 import mexican from "@/images/mexican.jpg";
 import { minLevel } from "@/util";
-import Thrill from "components/Thrill";
+import Thrill from "components/math/Thrill";
 import { useEffect } from "react";
 import {
   updatePositions,
@@ -14,7 +14,7 @@ import {
   increaseSpeedLevel,
 } from "actions";
 import Input from "components/math/Input";
-import Modal from "components/Modal";
+import Modal from "components/math/Modal";
 
 export default function game1({}) {
   const {

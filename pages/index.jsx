@@ -4,9 +4,7 @@ import { useEffect } from "react";
 export default function Homepage() {
   const router = useRouter();
   useEffect(() => {
-    router.push("/goals");
-    // router.push("/habit");
-    // router.push("/game1");
+    router.push("/game1");
   }, []);
   return <div className="">{/* <Tinder /> */}</div>;
 }
