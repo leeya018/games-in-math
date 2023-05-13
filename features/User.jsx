@@ -1,4 +1,4 @@
-import Label from "components/Label";
+import Label from "components/math/Label";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
 
 export default function User({
